@@ -1,0 +1,29 @@
+.cast_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+    margin-right: -20px;
+    margin-bottom: -20px;
+  }
+  
+  .cast_item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 20px * 6) / 6);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cast_descriprion {
+    padding: 10px;
+  }
+  
+  .cast_person {
+    font-weight: 500;
+    color: #1f1f1f;
+  }
+  
+  .cast_character {
+    color: #505050;
+  }

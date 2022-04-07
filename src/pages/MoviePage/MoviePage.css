@@ -1,0 +1,82 @@
+.moviesPage {
+    padding: 40px 0;
+  }
+  
+  .mainContainer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .searchForm {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  
+  .searchForm_input {
+    width: 80%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #e8e8e8;
+  }
+  
+  .searchForm_button {
+    width: 20%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: #e8e8e8;
+    background-color: #1f1f1f;
+  }
+  
+  .searchForm_button:hover,
+  .searchForm_button:focus {
+    color: #1f1f1f;
+    background-color: orange;
+  }
+  
+  .movieslist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  
+    margin-right: -20px;
+    margin-bottom: -40px;
+  }
+  
+  .movieslist_item {
+    display: flex;
+    flex-basis: calc((100% - 20px * 5) / 5);
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .movieslist_item:hover,
+  .movieslist_item:focus {
+    transform: scale(1.03);
+  }
+  
+  .movieslist_movietitle {
+    margin-top: 5px;
+    text-align: center;
+  
+    font-weight: 500;
+    font-size: 17px;
+  
+    color: #505050;
+  }
+  
+  .movieslist_item:hover .movieslist_movietitle,
+  .movieslist_item:focus .movieslist_movietitle {
+    color: orange;
+  }

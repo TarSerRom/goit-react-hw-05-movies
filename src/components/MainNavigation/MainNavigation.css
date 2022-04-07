@@ -1,0 +1,26 @@
+.mainNavigation {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+}
+  .mainContainer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mainNavigation_link {
+    display: flex;
+    margin-right: 45px;
+    padding: 20px 0;
+  
+    font-size: 25px;
+    font-weight: 600;
+  
+    color: wheat;
+  }
+  .mainNavigation_activeLink {
+    color: orange;
+  }

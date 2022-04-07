@@ -1,0 +1,50 @@
+.homePage {
+    padding: 40px 0;
+    background-color: #e8e8e8;
+  }
+  
+  .mainContainer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: orange;
+  }
+  
+  .movielist {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .movielist_item {
+    display: flex;
+    flex-basis: calc((100% - 20px * 5) / 5);
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .movielist_item:hover,
+  .movielist_item:focus {
+    transform: scale(1.03);
+  }
+  
+  .movielist_movietitle {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    color: #505050;
+  }
+  
+  .movielist_item:hover .movielist_movietitle,
+  .movielist_item:focus .movielist_movietitle {
+    color: orange;
+  }
