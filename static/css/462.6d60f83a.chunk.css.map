@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/462.6d60f83a.chunk.css","mappings":"AAAA,eAEI,gBAAiB,CACjB,iBAAkB,CAFlB,YAGF","sources":["pages/NotFoundPage/NotFoundPage.css"],"sourcesContent":[".mainContainer {\n    width: 1200px;\n    margin-left: auto;\n    margin-right: auto;\n  }"],"names":[],"sourceRoot":""}

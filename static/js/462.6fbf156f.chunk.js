@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_05_movies=self.webpackChunkgoit_react_hw_05_movies||[]).push([[462],{8462:function(t,e,i){i.r(e),i.d(e,{default:function(){return s}});i(2791);var n=i(184),s=function(){return(0,n.jsx)("div",{className:"mainContainer",children:(0,n.jsx)("img",{src:"https://i.stack.imgur.com/6M513.png",alt:"404"})})}}}]);
+//# sourceMappingURL=462.6fbf156f.chunk.js.map
